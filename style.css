@@ -1,0 +1,8 @@
+.target_selector {
+  animation: slide_animation 3s 
+}
+
+@keyframes slide_animation {
+  from {transform: translationX(-800px);}
+  to {transform: translationX(0px);}
+}
